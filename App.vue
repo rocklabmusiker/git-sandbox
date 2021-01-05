@@ -5,7 +5,7 @@
   </div>
   <LoginModal v-if="isLoginOpen" @close-login-modal="isLoginOpen = false"/>
 </template>
-
+// comment from sandbox
 <script>
 import AppHeader from "./components/AppHeader";
 import LoginModal from "./components/LoginModal";
