@@ -5,8 +5,10 @@
   </div>
   <LoginModal v-if="isLoginOpen" @close-login-modal="isLoginOpen = false"/>
 </template>
-// comment from sandbox2
+// comment from sandbox2, but now is it very important
+
 <script>
+// another comment from sandbox2
 import AppHeader from "./components/AppHeader";
 import LoginModal from "./components/LoginModal";
 import firebase from "./utilities/firebase";
